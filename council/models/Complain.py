@@ -10,6 +10,7 @@ class Complain(models.Model):
     def register(self):
 
         # aak
+        # eresem
         self.save()
     @staticmethod
     def get_complain_by_name(name):
