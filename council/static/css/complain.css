@@ -1,0 +1,102 @@
+
+#img{
+
+margin-left:85px;
+
+	 height:550px;
+    width: 1180px;
+    background-color:white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.bg-trans{
+	margin-top:-30px;
+	background-color:#040254;
+	color: white;
+	border-radius: 25px;
+	display: inline-block;
+	/*height:460px;*/
+   
+	
+	
+	 padding-left: 20px;
+	 padding-right: 40px;
+	 
+	 
+	}
+	h2{
+		
+		margin-bottom:2px;
+
+
+	}
+	body{
+
+		font-family:  Geneva,  sans-serif;
+		
+	}
+
+.form{
+
+	padding: 10px 12px 20px 10px;
+	border-radius: 4px;
+}
+input[type="name"],
+input[type="email"],
+input[type="number"],
+input[type="Password"],
+input[type="text"],
+textarea{
+	width: 100%;
+	margin: 5px 5px;
+	
+	border: 1px solid white;
+	border-radius: 5px;
+
+}
+input[type="text"],
+textarea{
+	height:40px;
+
+}
+
+.main{
+	text-align: center;
+	margin-bottom:8px;
+
+	font-size: 18pt;
+
+
+}
+input[type="Submit"]{
+	background-color: white;
+	color: rgb(1, 1, 20);
+	padding: 5px 14px;
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 10px;
+
+}
+input[type="Reset"]{
+	background-color: white;
+	color: rgb(1, 1, 20);
+	padding: 5px 14px;
+	margin-top:10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+
+#img:hover{ 
+	
+	box-shadow: 1px 1px 50px 2px #040254;
+ }
+ 
