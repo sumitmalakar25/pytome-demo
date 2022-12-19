@@ -8,6 +8,8 @@ class Complain(models.Model):
     complain = models.CharField(max_length=600)
 
     def register(self):
+
+        # aak
         self.save()
     @staticmethod
     def get_complain_by_name(name):
